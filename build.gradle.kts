@@ -34,6 +34,10 @@ kotlin {
     linuxX64()
     mingwX64()
 
+    iosArm64()
+    iosX64()
+    iosSimulatorArm64()
+
     sourceSets {
         commonMain.dependencies {
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3")
